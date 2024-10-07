@@ -35,7 +35,7 @@ $("#refresh").click(function(){
 
 
 $('#inst').css('cursor','pointer').click(function(){
-    $('#desc').toggle()
+    $('#desc').slideToggle()
 })
 
 function checkWinner(dice1val,dice2val){
