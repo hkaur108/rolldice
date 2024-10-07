@@ -28,10 +28,14 @@ $(document).ready(function(){
 
 )
 
+$("#refresh").click(function(){
+    location.reload(true)
+})
+
 
 
 $('#inst').css('cursor','pointer').click(function(){
-    $('#desc').slideDown()
+    $('#desc').toggle()
 })
 
 function checkWinner(dice1val,dice2val){
